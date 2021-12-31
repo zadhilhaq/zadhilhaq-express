@@ -4,10 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./bin/www",
-      "devstart": "nodemon ./bin/www",
-      "serverstart": "DEBUG=express-locallibrary-tutorial:* npm run devstart"
+    "start": ".\\node_modules\\.bin\\nodemon index.js"
   },
   "author": "",
   "license": "ISC",
