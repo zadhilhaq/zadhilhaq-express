@@ -2,10 +2,10 @@
   "name": "zadhilhaqexpress",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "mocha",
-    "start": ".\\node_modules\\.bin\\nodemon index.js"
+    "start": ".\\node_modules\\.bin\\nodemon app.js"
   },
   "author": "",
   "license": "ISC",
