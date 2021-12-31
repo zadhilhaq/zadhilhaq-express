@@ -3,7 +3,7 @@ const log = require('./middlewares/logger')
 const path = require('path')
 const app = express()
 const router = require('./routes')
-const port = 3000
+const port = 5000
 
 app.use(log)
 app.use(express.urlencoded({extended: true}))
