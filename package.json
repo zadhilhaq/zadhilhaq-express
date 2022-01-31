@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "type": "commonjs",
   "scripts": {
     "test": "mocha",
     "start": ".\\node_modules\\.bin\\nodemon app.js"
@@ -13,6 +14,8 @@
     "cors": "^2.8.5",
     "express": "^4.17.2",
     "mocha": "^9.1.3",
+    "mongodb": "^4.3.1",
+    "mongoose": "^6.1.8",
     "morgan": "^1.10.0",
     "multer": "^1.4.4",
     "mysql": "^2.18.1",

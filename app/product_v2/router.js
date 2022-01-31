@@ -13,7 +13,7 @@ router.post('/product', upload.single('image'), async(req, res)=>{
         fs.renameSync(image.path, target)
         try {
             await Product.sync()
-            const result = await Product.create({users_id, name, price, stock, status, image_url: `http://localhost:5000/public/${image.originalname}`})
+            const result = await Product.create({users_id, name, price, stock, status, image_url: `http://localhost:3000/public/${image.originalname}`})
             res.send(result)
         }catch(e) {
             res.send(e)
