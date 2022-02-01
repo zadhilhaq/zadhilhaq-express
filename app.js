@@ -8,7 +8,7 @@ const cors = require('cors')
 // const productRouterV2 = require('./app/product_v2/router')
 const productRouterV3 = require('./app/product_v3/routes')
 // const productRouterV4 = require('./app/product_v4/routes')
-const port = 5000
+const port = process.env.PORT || 5000
 
 app.use(logger('dev'))
 app.use(cors())
