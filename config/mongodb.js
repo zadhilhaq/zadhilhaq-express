@@ -1,6 +1,6 @@
 const {MongoClient}= require('mongodb');
 
-const url = 'mongodb://zadhilhaq:zadhilhaq@127.0.0.1:27017?authSource=admin';
+const url = 'mongodb+srv://zadhilhaq:zadhilhaq@cluster0.twhht.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 const client = new MongoClient(url);
 
 (async () => {

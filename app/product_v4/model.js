@@ -1,19 +1,19 @@
 const mongoose = require('mongoose')
 
 const productSchema = mongoose.Schema({
-    name:{
+    name: {
         type: String,
-        require: [true, 'field nama harus ada'],
+        required: [true, 'field nama harus ada'],
         minlength: 3,
         maxlength: 50
     },
-    price:{
+    price: {
         type: Number,
-        require: true,
+        required: true,
         min: 1000,
         max: 100000000
     },
-    stock: Number,
+    stock: Number
     
 })
 
